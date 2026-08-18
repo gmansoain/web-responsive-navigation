@@ -1,0 +1,135 @@
+/* POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+:root {
+  --primary-color: #fc5d66;
+  --secondary-color: #ffc05a;
+  --light-color: #f9fafb;
+  --dark-color: #272d35;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-color: var(--primary-color);
+}
+
+/* Desktop Navigation */
+.nav-bar {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-bar img {
+    width: 100px;
+}
+
+.nav-bar a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-bar a:hover {
+    color: var(--secondary-color);
+}
+
+.desktop-menu-items {
+    display: flex;
+    gap: 32px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+/* Mobile Navigation */
+
+
+.mobile-menu-items {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 48px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+}
+
+.toggle-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.menu-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.menu-icon:hover {
+    color: var(--secondary-color)
+}
+
+.mobile-menu-items.mobile-hide {
+    transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
