@@ -27,6 +27,7 @@ difficulty: beginner
 read_time: 4
 status: not validated
 repo: https://github.com/gmansoain/web-responsive-navigation
+demo: https://gon-responsive-nav.netlify.app
 canonical_url: ""
 ---
 ![Not Validated](https://img.shields.io/badge/Status-Not_Validated-f1c40f) ![English](https://img.shields.io/badge/Lang-English-4a4a4a) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Beginner](https://img.shields.io/badge/Level-Beginner-2ecc71) ![Series](https://img.shields.io/badge/Series-Responsive_Navigation-16a085) ![6 Parts](https://img.shields.io/badge/Parts-6-16a085)
@@ -37,7 +38,7 @@ Almost every website opens with the same component: a bar across the top holding
 
 This series builds that component end to end, from an empty folder to a finished, deployable widget — using nothing but **HTML, CSS, and a handful of vanilla JavaScript**. No frameworks, no build step, no dependencies to install. If you can open a file in a browser, you can follow along.
 
-> 🔗 **Series:** Building a Responsive Navigation Bar · **Repo:** [web-responsive-navigation](https://github.com/gmansoain/web-responsive-navigation)
+> 🔗 **Series:** Building a Responsive Navigation Bar · **Live demo:** [gon-responsive-nav.netlify.app](https://gon-responsive-nav.netlify.app) · **Repo:** [web-responsive-navigation](https://github.com/gmansoain/web-responsive-navigation)
 
 ---
 

@@ -1,6 +1,6 @@
 # GON — Responsive Navigation
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![No Build Step](https://img.shields.io/badge/Build-None-2ecc71) ![License MIT](https://img.shields.io/badge/License-MIT-blue)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-online-brightgreen?logo=netlify&logoColor=white)](https://gon-responsive-nav.netlify.app) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![No Build Step](https://img.shields.io/badge/Build-None-2ecc71) ![License MIT](https://img.shields.io/badge/License-MIT-blue)
 
 A responsive navigation bar built from scratch with **plain HTML, CSS, and vanilla JavaScript** — no frameworks, no build tooling, no dependencies to install. On wide screens it shows a full horizontal menu; on narrow screens it collapses into a **hamburger menu** whose panel slides in from the right.
 
@@ -10,7 +10,9 @@ This repository is both the finished component **and** a complete, six-part writ
 
 ## Demo
 
-Open `index.html` in any modern browser, or serve the folder:
+**🔗 Live:** <https://gon-responsive-nav.netlify.app> — auto-deployed from `main` via Netlify.
+
+Or run it locally — open `index.html` in any modern browser, or serve the folder:
 
 ```bash
 python3 -m http.server

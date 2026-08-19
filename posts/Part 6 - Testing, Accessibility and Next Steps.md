@@ -263,7 +263,7 @@ This is three static files — deployment is trivial and free.
    git push origin main
    ```
    Repo: [github.com/gmansoain/web-responsive-navigation](https://github.com/gmansoain/web-responsive-navigation)
-2. **Netlify** — connect the repo (or drag-and-drop the folder onto the Netlify dashboard). No build command, no publish directory beyond the project root. You'll get a live URL in seconds — the same flow used for the sibling projects in [[Web Projects - Index]].
+2. **Netlify** — connect the repo (or drag-and-drop the folder onto the Netlify dashboard). No build command, no publish directory beyond the project root. You'll get a live URL in seconds — the same flow used for the sibling projects in [[Web Projects - Index]]. **This project is live at [gon-responsive-nav.netlify.app](https://gon-responsive-nav.netlify.app)**, auto-deploying on every push to `main`.
 3. **GitHub Pages** — alternatively, enable Pages on the repo for a free `github.io` URL.
 
 > [!IMPORTANT]
