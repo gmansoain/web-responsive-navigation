@@ -21,6 +21,16 @@ python3 -m http.server
 
 > **Note:** icons (Font Awesome) and the *Poppins* font load from CDNs, so an internet connection is required for them to render.
 
+## Screenshots
+
+**Desktop (> 768px)** — the full horizontal menu:
+
+![Desktop navigation bar](images/screenshot-desktop.png)
+
+**Mobile (≤ 768px)** — the hamburger menu slid open:
+
+<img src="images/screenshot-mobile.png" alt="Mobile navigation with the menu open" width="320">
+
 ## Features
 
 - **Fully responsive** — a horizontal menu above `768px`, a hamburger menu at or below it.
